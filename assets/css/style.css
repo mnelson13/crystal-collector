@@ -1,40 +1,48 @@
 body {
-    background-image: url(../images/full-bloom.png)
+    background-image: url(../images/full-bloom.png);
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .crystal-image {
     height: 100px;
     width: 100px;
-    margin-right: 30px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin: 10px;
+    border: solid #62abf0 5px;
+    border-radius: 20px;
 }
 
 h1, h5, p {
     text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
 }
+
 
 h1 {
     background-color: #62abf0;
+    border-radius: 10px;
     padding: 10px;
+}
+
+.heading {
+    font-family: 'Libre Baskerville', serif;
 }
 
 #instructions {
     border: solid #62abf0 5px;
+    border-radius: 20px;
     padding: 10px;
     margin-bottom: 20px;
 }
 
-.whiteText {
-    color: #ffffff;
-}
 
 .score {
     padding-top: 20px;
-    font-size: 30px;
+    font-size: 40px;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 #targetNumber {
     padding-top: 30px;
-    font-size: 30px;
+    font-size: 40px;
+    font-family: 'Source Sans Pro', sans-serif;
 }

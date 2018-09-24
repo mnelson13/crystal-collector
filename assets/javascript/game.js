@@ -3,7 +3,7 @@ $(document).ready(function() {
     var counter = 0;
     var wins = 0;
     var losses = 0;
-    var crystals = ["assets/images/crystal1.jpeg", "assets/images/crystal2.jpeg", "assets/images/crystal3.jpeg", "assets/images/crystal4.jpeg"]
+    var crystals = ["assets/images/crystal1.jpeg", "assets/images/crystal2.jpeg", "assets/images/crystal3.jpeg", "assets/images/crystal4.jpeg", "assets/images/crystal5.jpg", "assets/images/crystal6.jpeg", "assets/images/crystal7.jpeg", "assets/images/crystal8.jpeg", "assets/images/crystal9.jpeg", "assets/images/crystal10.jpeg"]
 
 
     function start() {
@@ -16,7 +16,7 @@ $(document).ready(function() {
     for ( i = 0; i < 4; i++) {
         var imageCrystal = $("<img>");
         imageCrystal.addClass("crystal-image");
-        imageCrystal.attr("src", crystals[i]);
+        imageCrystal.attr("src", crystals[Math.floor(Math.random() * crystals.length)]);
         imageCrystal.attr("data-crystalvalue", Math.ceil(Math.random() * 12));
         $("#crystals").append(imageCrystal);
     }
@@ -45,22 +45,6 @@ $(document).ready(function() {
 };
 
 start();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 });
