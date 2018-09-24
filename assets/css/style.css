@@ -1,0 +1,40 @@
+body {
+    background-image: url(../images/full-bloom.png)
+}
+
+.crystal-image {
+    height: 100px;
+    width: 100px;
+    margin-right: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h1, h5, p {
+    text-align: center;
+}
+
+h1 {
+    background-color: #62abf0;
+    padding: 10px;
+}
+
+#instructions {
+    border: solid #62abf0 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.whiteText {
+    color: #ffffff;
+}
+
+.score {
+    padding-top: 20px;
+    font-size: 30px;
+}
+
+#targetNumber {
+    padding-top: 30px;
+    font-size: 30px;
+}
