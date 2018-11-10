@@ -1,7 +1,7 @@
-# unit-4-game2
+# Crystal Collector
 
 ### Link to Deployed Project:
-* https://mnelson13.github.io/unit-4-game2/
+* https://mnelson13.github.io/crystal-collector/
 
 ### Instructions:
 * You will be given a random number at the start of the game
